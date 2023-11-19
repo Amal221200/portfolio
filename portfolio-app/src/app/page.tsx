@@ -17,16 +17,16 @@ export default function Home() {
           <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">Amal Murikkoli</h3>
           <p className="text-gray-500 dark:text-gray-300 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ullam suscipit perspiciatis aliquam doloribus! Laborum aut quis optio sunt minima!</p>
           <div className="flex gap-x-5 pt-6">
-            <Link href="" target="_blank">
+            <Link href="https://github.com/Amal221200" target="_blank">
               <Github className="w-8 h-8 text-teal-500 hover:text-teal-600" />
             </Link>
-            <Link href="" target="_blank">
+            <Link href="https://www.linkedin.com/in/amal-murikkoli-42713a2a0/" target="_blank">
               <Linkedin className="w-8 h-8 text-teal-500 hover:text-teal-600" />
             </Link>
             <Link href="mailto:amalmurikkoli2000@gmail.com" target="_blank">
               <Mail className="w-8 h-8 text-teal-500 hover:text-teal-600" />
             </Link>
-            <Link href="" target="_blank">
+            <Link href="https://www.instagram.com/amalmurikkoli" target="_blank">
               <Instagram className="w-8 h-8 text-teal-500 hover:text-teal-600" />
             </Link>
           </div>
