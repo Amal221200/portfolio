@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
+    "@portabletext/react": "^3.0.11",
     "lucide-react": "^0.292.0",
     "next": "14.0.2",
+    "next-sanity": "^6.0.5",
     "next-themes": "^0.2.1",
     "next13-progressbar": "^1.1.0",
     "react": "^18",
