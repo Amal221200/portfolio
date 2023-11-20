@@ -4,6 +4,7 @@ import { Github, Instagram, Linkedin, Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
+export const revalidate = 60;
 
 export default async function Home() {
 const info  = await fetchInfo()

@@ -1,6 +1,5 @@
 import { fetcthSkills } from "@/lib/actions";
 import Image from "next/image";
-import { revalidatePath } from "next/cache";
 
 export const revalidate = 60;
 
