@@ -2,7 +2,7 @@ import { fetcthProjects } from "@/lib/actions";
 import Image from "next/image";
 import Link from "next/link";
 
-export const revalidate = 60;
+export const revalidate = 120;// revalidate at most every hour
 
 async function ProjectsPage() {
     const projects = await fetcthProjects()

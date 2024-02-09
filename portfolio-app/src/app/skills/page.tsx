@@ -1,7 +1,7 @@
 import { fetcthSkills } from "@/lib/actions";
 import Image from "next/image";
 
-export const revalidate = 60;
+export const revalidate = 120;
 
 async function SkillsPage() {
     const skills = await fetcthSkills();
