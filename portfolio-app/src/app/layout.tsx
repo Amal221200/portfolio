@@ -8,8 +8,8 @@ import ProgressBarProvider from '@/providers/ProgressBarProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Amal Murikkoli',
-  description: 'I\'m Amal, and this is my portfolio',
+  title: "Portfolio | Amal Murikkoli",
+  description: "I'm Amal, and this is my portfolio",
 }
 
 export default function RootLayout({

@@ -7,7 +7,7 @@ import Link from "next/link";
 export const revalidate = 60;
 
 export default async function Home() {
-const info  = await fetchInfo()
+  const info = await fetchInfo()
 
   return (
     <div className="divide-y divide-gray-100 dark:divide-gray-700">
@@ -25,19 +25,16 @@ const info  = await fetchInfo()
             <Link href="https://github.com/Amal221200" target="_blank">
               <Github className="w-8 h-8 text-teal-500 hover:text-teal-600" />
             </Link>
-            {/* <Link href="https://www.linkedin.com/in/amal-murikkoli-42713a2a0/" target="_blank">
-              <Linkedin className="w-8 h-8 text-teal-500 hover:text-teal-600" />
-            </Link> */}
             <Link href="mailto:amalmurikkoli2000@gmail.com" target="_blank">
               <Mail className="w-8 h-8 text-teal-500 hover:text-teal-600" />
             </Link>
-            <Link href="https://www.instagram.com/amalmurikkoli" target="_blank">
-              <Instagram className="w-8 h-8 text-teal-500 hover:text-teal-600" />
+            <Link href="https://www.linkedin.com/in/amal-murikkoli" target="_blank">
+              <Linkedin className="w-8 h-8 text-teal-500 hover:text-teal-600" />
             </Link>
           </div>
         </div>
         <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:col-span-2">
-        <PortableText value={info.description} />
+          <PortableText value={info.description} />
         </div>
       </div>
     </div>
