@@ -1,6 +1,6 @@
 import { fetchInfo } from "@/lib/actions";
 import { PortableText } from "@portabletext/react";
-import { Github, Instagram, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
