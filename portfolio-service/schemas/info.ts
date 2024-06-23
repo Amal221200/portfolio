@@ -10,14 +10,17 @@ export default {
             type: 'string',
         },
         {
-            name: 'overview',
-            title: 'Overview',
-            type: 'text',
-        },
-        {
             name: 'profile',
             title: 'Profile Picture',
             type: 'image'
+        },
+        {
+            name: 'resume',
+            title: 'Resume',
+            type: 'file',
+            options: {
+                accept: 'application/pdf'
+            }
         },
         {
             name: 'description',
