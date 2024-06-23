@@ -21,5 +21,6 @@ export interface InfoType {
     overview: string,
     _createdAt: string,
     profile: string,
+    resume: string,
     description: any
 }

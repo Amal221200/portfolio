@@ -5,7 +5,7 @@ import { client } from "./sanity";
 
 const projectsQuery = `*[ _type=="project" ] {_id,title,overview, _createdAt, "image":image.asset->url,link} | order(createdAt asc)`;
 const skillsQuery = `*[ _type=="skill" ] {_id,title,overview, _createdAt, "image":image.asset->url} | order(createdAt asc)`;
-const infoQuery = `*[ _type=="info" ][0] {_id, title, overview, description, _createdAt, "profile":profile.asset->url}`;
+const infoQuery = `*[ _type=="info" ][0] {_id, name, description,"resume":resume.asset->url, _createdAt, "profile":profile.asset->url}`;
 
 export async function fetcthProjects(): Promise<Array<ProjectType>> {
     const data = await client.fetch(projectsQuery);
